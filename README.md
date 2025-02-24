@@ -4,7 +4,7 @@ Use `zopfli` to compress resources.
 
 Zopfli is a data compression library that performs Deflate, gzip and zlib data encoding. It achieves higher compression ratios than mainstream Deflate and zlib implementations.
 
-Currently only gzip is supported.
+Currently, only gzip is supported.
 
 ## Install
 
@@ -39,5 +39,18 @@ export default defineConfig({
 
 | params                 | type                                          | default                                                      | description                                                                                |
 | ---------------------- | --------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
-| `compressionOptions`   | `Zopfli.Options`                          | `{}`                                                         | Compression options for `Zopfli`(details see `node-zopfli`)                             |
+| `compressionOptions`   | `Zopfli.Options`                          | `{}`                                                         | Compression options for `Zopfli`(for details check `node-zopfli` module)                             |
 | `deleteOriginalAssets` | `boolean`                                     | `false`                                                      | Whether to delete the original assets or not                                               |
+
+
+## Inspiration
+
+[vite-plugin-compress](https://github.com/alloc/vite-plugin-compress)
+
+### LICENSE
+
+[MIT](./LICENSE.md)
+
+### Author
+
+[Daniil Mira](https://github.com/ZAZPRO)
