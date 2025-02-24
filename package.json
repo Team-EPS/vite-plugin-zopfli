@@ -22,5 +22,11 @@
     "preview": "vite preview"
   },
   "type": "module",
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "compress",
+    "zopfli"
+  ]
 }
