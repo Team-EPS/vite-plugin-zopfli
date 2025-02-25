@@ -1,14 +1,17 @@
 {
   "name": "vite-plugin-zopfli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Daniil Mira",
   "license": "MIT",
+  "repository": "Team-EPS/vite-plugin-zopfli",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
+  "dependencies": {
+    "node-zopfli": "^2.1.4"
+  },
   "devDependencies": {
     "@types/node": "^22.13.0",
     "@types/node-zopfli": "^2.0.5",
-    "node-zopfli": "^2.1.4",
     "typescript": "~5.7.3",
     "vite": "^5.0.0",
     "vite-plugin-dts": "^4.5.0"
